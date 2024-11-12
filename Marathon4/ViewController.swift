@@ -48,7 +48,7 @@ class ViewController: UIViewController {
         tableView.dataSource = self
         tableView.delegate = self
         
-        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "test", style: .done, target: self, action: #selector(shufflePressed))
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Shuffle", style: .done, target: self, action: #selector(shufflePressed))
     }
     
     @objc func shufflePressed() {
